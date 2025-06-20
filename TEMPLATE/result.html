@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Image Steganography Tool - Result</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1 class="title">Decode Result</h1>
+        <div class="result-box">
+            <h2>Decoded Message</h2>
+            <p>{{ decoded_message if decoded_message else "No message found in the image." }}</p>
+        </div>
+        <a href="/" class="button">Back to Home</a>
+    </div>
+</body>
+</html>
